@@ -79,3 +79,4 @@ E:\Development\TestSite\MyProject\MyProject\obj\Debug\MyProject.csproj.CoreCompi
 E:\Development\TestSite\MyProject\MyProject\obj\Debug\MyProject.csproj.CopyComplete
 E:\Development\TestSite\MyProject\MyProject\obj\Debug\MyProject.dll
 E:\Development\TestSite\MyProject\MyProject\obj\Debug\MyProject.pdb
+E:\Development\TestSite\MyProject\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache

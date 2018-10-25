@@ -3,3 +3,4 @@ E:\Development\TestSite\MyProject\MyProject.Sc\bin\Debug\MyProject.Sc.pdb
 E:\Development\TestSite\MyProject\MyProject.Sc\obj\Debug\MyProject.Sc.csproj.CoreCompileInputs.cache
 E:\Development\TestSite\MyProject\MyProject.Sc\obj\Debug\MyProject.Sc.dll
 E:\Development\TestSite\MyProject\MyProject.Sc\obj\Debug\MyProject.Sc.pdb
+E:\Development\TestSite\MyProject\MyProject.Sc\obj\Debug\MyProject.Sc.csprojAssemblyReference.cache
