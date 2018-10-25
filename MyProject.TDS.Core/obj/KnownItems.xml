@@ -1,12 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <KnownItemCache>
-  <KnownItems Configuration="Debug">
-    <Id>31056d46-2faa-4ea2-8759-be93eae10001</Id>
-    <Id>0de95ae4-41ab-4d01-9eb0-67441b7c2450</Id>
-    <Id>eb2e4ffd-2761-4653-b052-26a64d385227</Id>
-    <Id>bad98e0e-c1b5-4598-ac13-21b06218b30c</Id>
-    <Id>3d6658d8-a0bf-4e75-b3e2-d050fabcf4e1</Id>
-    <Id>13d6d6c6-c50b-4bbd-b331-2b04f1a58f21</Id>
-    <Id>3c1715fe-6a13-4fcf-845f-de308ba9741d</Id>
-  </KnownItems>
+  <KnownItems Configuration="Debug" />
 </KnownItemCache>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+
+Purpose: This include file enables and configures the Content Validation foundation module.
+
+The main purpose of this foundation module is to validate the uniqueness of item names.
+
+To disable this file, change its extension to ".disabled".
+
+-->
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <events>
+      <event name="item:saving">
+        <handler type="Sitecore.XA.Foundation.ContentValidation.EventHandlers.ValidateDuplicateName, Sitecore.XA.Foundation.ContentValidation" method="OnItemSaving" />
+      </event>
+      <event name="item:adding">
+        <handler type="Sitecore.XA.Foundation.ContentValidation.EventHandlers.ValidateDuplicateName, Sitecore.XA.Foundation.ContentValidation" method="OnItemAdding" />
+      </event>
+      <event name="item:copying">
+        <handler type="Sitecore.XA.Foundation.ContentValidation.EventHandlers.ValidateDuplicateName, Sitecore.XA.Foundation.ContentValidation" method="OnItemCopying" />
+      </event>
+      <event name="item:moving">
+        <handler type="Sitecore.XA.Foundation.ContentValidation.EventHandlers.ValidateDuplicateName, Sitecore.XA.Foundation.ContentValidation" method="OnItemMoving" />
+      </event>
+    </events>
+  </sitecore>
+</configuration>

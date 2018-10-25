@@ -1,0 +1,6 @@
+E:\Development\TestSite\MyProject\MyProject.Domain\bin\Debug\MyProject.Domain.dll
+E:\Development\TestSite\MyProject\MyProject.Domain\bin\Debug\MyProject.Domain.pdb
+E:\Development\TestSite\MyProject\MyProject.Domain\obj\Debug\MyProject.Domain.csproj.CoreCompileInputs.cache
+E:\Development\TestSite\MyProject\MyProject.Domain\obj\Debug\MyProject.Domain.dll
+E:\Development\TestSite\MyProject\MyProject.Domain\obj\Debug\MyProject.Domain.pdb
+E:\Development\TestSite\MyProject\MyProject.Domain\obj\Debug\MyProject.Domain.csprojAssemblyReference.cache

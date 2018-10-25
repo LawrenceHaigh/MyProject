@@ -4,7 +4,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>05d392c3-fdeb-4e18-9588-e926c83a32c7</ProjectGuid>
+    <ProjectGuid>98484e72-734f-46d8-9c51-3b6445bf78a4</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
@@ -20,19 +20,21 @@
     <SitecoreDatabase>core</SitecoreDatabase>
     <AssemblyStatus>Exclude</AssemblyStatus>
     <SourceWebVirtualPath>/MyProject.csproj</SourceWebVirtualPath>
-    <SourceWebProject>{b6eae468-13c0-43a7-82e0-2aae31f05b49}|MyProject\MyProject.csproj</SourceWebProject>
+    <SourceWebProject>{f652e589-8055-43cc-a3ff-e4e7ae0f59ed}|MyProject\MyProject.csproj</SourceWebProject>
     <SourceWebPhysicalPath>..\MyProject</SourceWebPhysicalPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <SitecoreDeployFolder>C:\inetpub\wwwroot\MyProject.local</SitecoreDeployFolder>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\MyProject.TDS.Core_Debug.xml</ValidationSettingsFilePath>
+    <SitecoreWebUrl>https://tracker.dev</SitecoreWebUrl>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
     <LightningDeployMode>False</LightningDeployMode>
-    <SitecoreWebUrl>http://myproject.local</SitecoreWebUrl>
-    <SitecoreAccessGuid>e1b3d407-e207-4f68-9d44-7aa3ef1f52dc</SitecoreAccessGuid>
+    <SitecoreDeployFolder>C:\inetpub\wwwroot\tracker.dev</SitecoreDeployFolder>
+    <SitecoreAccessGuid>ad5504bb-95fb-4a77-8eb5-5ade5179cc23</SitecoreAccessGuid>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -49,21 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyProject\MyProject.csproj">
-      <Project>{b6eae468-13c0-43a7-82e0-2aae31f05b49}</Project>
+      <Project>{f652e589-8055-43cc-a3ff-e4e7ae0f59ed}</Project>
       <Name>MyProject</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <SitecoreItem Include="sitecore\client.item">
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\content.item" />
-    <SitecoreItem Include="sitecore\layout.item" />
-    <SitecoreItem Include="sitecore\masters.item" />
-    <SitecoreItem Include="sitecore\media library.item" />
-    <SitecoreItem Include="sitecore\system.item" />
-    <SitecoreItem Include="sitecore\templates.item" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
