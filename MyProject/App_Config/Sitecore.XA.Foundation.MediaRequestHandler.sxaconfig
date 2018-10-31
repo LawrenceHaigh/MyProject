@@ -1,7 +1,0 @@
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <system.webServer>
-    <handlers>
-      <add patch:instead="*[@type='Sitecore.Resources.Media.MediaRequestHandler, Sitecore.Kernel']" verb="*" path="sitecore_media.ashx" type="Sitecore.XA.Foundation.MediaRequestHandler.MediaRequestHandler, Sitecore.XA.Foundation.MediaRequestHandler" name="Sitecore.MediaRequestHandler" />
-    </handlers>
-  </system.webServer>
-</configuration>
